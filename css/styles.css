@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  color: #808080;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.01em;
+}
+ul {
+  list-style-type: none;
+}
+p {
+  line-height: 1.5;
+}
+
+
+/* Grid: */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.grid__row {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0;
+}
+
+.grid__col--2 {
+  flex: 2;
+}
+
+.grid__col--3 {
+  flex: 3;
+}
+.grid__col--3:not(.theme__colors) {
+  text-align: center;
+}
+.grid__col--3.theme__colors {
+  background: #DEB2EE;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.grid__col--4 {
+  flex: 4;
+}
+.grid__col--4.theme__colors {
+  background: #7EE6FD;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.grid__col--5 {
+  flex: 5;
+}
+.grid__col--5.theme__colors {
+  background: #88D9A0;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.grid__col--6 {
+  flex: 6;
+}
+.grid__col--6.theme__colors {
+  background: #3FABCA;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.grid__col--7 {
+  flex: 7;
+}
+.grid__col--7.theme__colors {
+  background: #EC9FA3;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.grid__col--8 {
+  flex: 8;
+}
+.grid__col--8.theme__colors {
+  background: #FD9F85;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.grid__col--9 {
+  text-align: center;
+}
+.grid__col--9 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grid__col--10 {
+  flex: 10;
+}
+
+.grid__col--11 {
+  flex: 11;
+}
+
+.grid__col--12 {
+  flex: 12;
+}
+.grid__col--12.theme__colors {
+  background: #80E8D1;
+  margin: 3px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.centered {
+  justify-content: space-around;
+}
+
+.nav__item {
+  width: 100%;
+}
+.nav__item a {
+  display: inline-block;
+  text-decoration: none;
+  background: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 13px 0;
+  margin: 5px 0;
+}
+.nav__item a:hover {
+  color: white;
+  background: #58E1C1;
+}
+
+
+
+
+
+
+/* Typography: */
+.container {
+
+}
+.link {
+  color: #51DDFC;
+  text-decoration: none;
+  font-weight: 500;
+}
+.blockquote {
+  padding: 0 0 0 20px;
+  margin: 0 0 50px 15px;
+  border-left: 8px solid #58E1C1;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.headline--primary {
+  font-weight: 700;
+  color: #58E1C1;
+  font-size: 2em;
+  line-height: 1.1;
+  padding: 0 0 15px 20px;
+}
+.headline--secondary {
+  font-weight: 100;
+}
